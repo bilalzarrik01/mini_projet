@@ -23,7 +23,7 @@ int main() {
         printf("entrer les notes entre 0 et 100 : \n");
         scanf("%f" , &note1);
       }
-       
+
       if(note2 <0  || note2>100) {
         printf("entrer les notes entre 0 et 100 :\n ");
         scanf("%f" , &note2);
@@ -48,7 +48,7 @@ int main() {
      s = note1 + note2 + note3 + note4 + note5 ;
      printf("le total des notes est : %f\n" , s) ;
 
-     m = s / 500 ;
+     m = s / 5;
 
      printf("la moyenne est : %f \n" , m);
 
@@ -106,54 +106,54 @@ int main() {
 
      }
      if (note1 > 50)
-     { 
+     {
         printf("la matiere 1 est reussie\n");
-        
+
      }
      if (note1 < 50)
-     { 
+     {
         printf("la matiere 1 est rechouee\n ");
-        
+
      }
      if (note2 > 50)
-     { 
+     {
         printf("la matiere 2 est reussie \n");
-        
+
      }
       if (note2 < 50)
-     { 
+     {
         printf("la matiere 2 est echouee  \n");
-        
-     } 
+
+     }
       if (note3 > 50)
-     { 
+     {
         printf("la matiere 3 est reussie \n");
-        
+
      }
       if (note3 < 50)
-     { 
+     {
         printf("la matiere 2 est echouee \n");
-        
+
      }
       if (note4 > 50)
-     { 
+     {
         printf("la matiere 4 est reussie \n");
-        
+
      }
       if (note4 < 50)
-     { 
+     {
         printf("la matiere 4 est echouee \n");
-        
+
      }
       if (note5 > 50)
-     { 
+     {
         printf("la matiere 5 est reussie \n");
-        
+
      }
       if (note5 < 50)
-     { 
+     {
         printf("la matiere 5 est echouee \n");
-        
+
      }
 
 
@@ -168,17 +168,11 @@ int main() {
 
 
 
-     return 0; 
+     return 0;
     }
 
 
 
-     
-     
-
-    
-     
-     
 
 
 
@@ -186,7 +180,13 @@ int main() {
 
 
 
-      
+
+
+
+
+
+
+
 
 
 
