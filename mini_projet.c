@@ -20,29 +20,29 @@ int main() {
       printf("veuillez entrer votre 5eme note \n");
       scanf("%f" , &note5);
       if(note1 <0  || note1>100) {
-        printf("entrer les notes entre 0 et 100 : ");
+        printf("entrer les notes entre 0 et 100 : \n");
         scanf("%f" , &note1);
       }
        
       if(note2 <0  || note2>100) {
-        printf("entrer les notes entre 0 et 100 : ");
+        printf("entrer les notes entre 0 et 100 :\n ");
         scanf("%f" , &note2);
       }
 
       if(note3 <0  || note3>100) {
-        printf("entrer les notes entre 0 et 100 : ");
+        printf("entrer les notes entre 0 et 100 :\n ");
         scanf("%f" , &note3);
       }
       if(note4 <0  || note4>100) {
-        printf("entrer les notes entre 0 et 100 : ");
+        printf("entrer les notes entre 0 et 100 :\n ");
         scanf("%f" , &note4);
       }
       if(note4 <0  || note4>100) {
-        printf("entrer les nptes entre 0 et 100 : ");
+        printf("entrer les nptes entre 0 et 100 :\n ");
         scanf("%f" , &note4);
       }
       if(note5 <0  || note5>100) {
-        printf("entrer les nptes entre 0 et 100 : ");
+        printf("entrer les nptes entre 0 et 100 : \n");
         scanf("%f" , &note5);
       }
      s = note1 + note2 + note3 + note4 + note5 ;
@@ -50,69 +50,69 @@ int main() {
 
      m = s / 500 ;
 
-     printf("la moyenne est : %f" , m);
+     printf("la moyenne est : %f \n" , m);
 
      if ( note1 > note2 && note1 > note3 && note1 > note4 && note1 > note5){
-        printf("la premier note est le plus haute ");
+        printf("la premier note est le plus haute \n");
      }
       if ( note2 > note1 && note2 > note3 && note2 > note4 && note2 > note5){
-        printf("la 2eme note est le plus haute ");
+        printf("la 2eme note est le plus haute \n");
      }
       if ( note3 > note2 && note3 > note1 && note3 > note4 && note3 > note5){
-        printf("la 3eme note est le plus haute ");
+        printf("la 3eme note est le plus haute\n ");
      }
       if ( note4 > note2 && note4 > note3 && note4 > note1 && note4 > note5){
-        printf("la premier note est le plus haute ");
+        printf("la premier note est le plus haute\n ");
      }
       if ( note5 > note2 && note5 > note3 && note5 > note4 && note5 > note1){
-        printf("la 5eme note est le plus haute ");
+        printf("la 5eme note est le plus haute\n ");
      }
       if ( note5 < note2 && note5 < note3 && note5 < note4 && note5 < note1){
-        printf("la 5eme note est le plus basse ");
+        printf("la 5eme note est le plus basse\n ");
      }
      if ( note4 < note2 && note4 < note3 && note4 < note1 && note4 < note5){
-        printf("la premier note est le plus basse ");
+        printf("la premier note est le plus basse\n ");
      }
      if ( note3 < note2 && note3 < note1 && note3 < note4 && note3 < note5){
-        printf("la 3eme note est le plus basse ");
+        printf("la 3eme note est le plus basse\n ");
 
      }
      if ( note2 < note1 && note2 < note3 && note2 < note4 && note2 < note5){
-        printf("la 2eme note est le plus basse ");
+        printf("la 2eme note est le plus basse\n ");
      }
      if ( note1 < note2 && note1 < note3 && note1 < note4 && note1 < note5){
-        printf("la premier note est le plus basse ");
+        printf("la premier note est le plus basse\n ");
      }
      if(m < 40 && m >=0 ) {
- printf(" la mention globale selon la moyenne est : F");
+ printf(" la mention globale selon la moyenne est : F\n");
 
 
      }
      if(m > 40 && m >=60 ) {
- printf(" la mention globale selon la moyenne est : D");
+ printf(" la mention globale selon la moyenne est : D\n");
 
 
      }
      if(m < 70 && m >=60 ) {
- printf(" la mention globale selon la moyenne est : c");
+ printf(" la mention globale selon la moyenne est : c\n");
 
      } if(m < 80 && m >=60 ) {
- printf(" la mention globale selon la moyenne est : B");
+ printf(" la mention globale selon la moyenne est : B\n");
 
 
      }
      if(m <= 100 && m >=80 ) {
- printf(" la mention globale selon la moyenne est : A");
+ printf(" la mention globale selon la moyenne est : A\n");
 
      }
      if (note1 > 50)
      { 
-        printf("la matiere 1 est reussie");
+        printf("la matiere 1 est reussie\n");
         
      }
      if (note1 < 50)
      { 
-        printf("la matiere 1 est rechouee ");
+        printf("la matiere 1 est rechouee\n ");
         
      }
      if (note2 > 50)
